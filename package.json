@@ -10,5 +10,13 @@
     "fs-extra": "^9.0.0",
     "is-promise": "^3.0.0",
     "node-forge": "^0.9.1"
-  }
+  },
+  "name": "@tylermenezes/vault-pki",
+  "version": "1.0.0",
+  "description": "Tools for getting certificates from Hashicorp Vault in node.",
+  "main": "src/index.js",
+  "repository": "https://github.com/tylermenezes/vault-pki",
+  "author": "Tyler Menezes <x@tyler.vc>",
+  "license": "Artistic-2.0",
+  "private": false
 }
