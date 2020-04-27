@@ -111,4 +111,13 @@ module.exports = class {
       chain: certificateChain,
     }));
   }
+
+  /**
+   * Gets the certificate chain for the CA.
+   *
+   * @returns {string} The CA chain.
+   */
+  async getCaChain() {
+    return (await (await this.client).get(`/ca_chain`)).data;
+  }
 };
